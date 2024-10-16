@@ -1,0 +1,24 @@
+.logo {
+    width: 250px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 30px solid #4C5760;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, 0);
+}
+
+.rectangleBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #4C5760;
+    z-index: 1
+  }
+

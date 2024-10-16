@@ -1,0 +1,10 @@
+.triangleleft {
+    width: 50px;
+    height: 55px;
+    transform: rotate(180deg);
+}
+
+.triangleright {
+    width: 50px;
+    height: 55px;
+}

@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  /* background-image: url("../public/images/pattern.png"); */
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 100vh;  
+  font-family: 'CustomFont', sans-serif;
+  color: #66635B;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-background {
+  background-color: #d7ceb2;
+}
+
+.link{
+  color: #4C5760; /* Use the color inherited from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+
+.h1a {
+  font-size: 64px;
+  color: #4C5760;
+}
+.h2a {
+  font-size: 48px;
+  color: #4C5760;
+}
+.h3a {
+  font-size: 32px;
+  color: #4C5760;
+}
+.h4a {
+  font-size: 24px;
+  color: #4C5760;
+}
+.h5a {
+  font-size: 16px;
+  color: #4C5760;
+}
+
+.h1b {
+  font-size: 64px;
+  color: #66635B;
+}
+.h2b {
+  font-size: 48px;
+  color: #66635B;
+}
+.h3b {
+  font-size: 32px;
+  color: #66635B;
+}
+.h4b {
+  font-size: 24px;
+  color: #66635B;
+}
+.h5b {
+  font-size: 16px;
+  color: #66635B;
+}
+
+.text_input {
+  background-color: #D9D9D9;
+  border-width: 10px;
+  width: 200px;
+  height: 25px;
+  border: 10px solid #A59E8C;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 12px;
+  color: #66635B;
+}
+
+.textarea_input {
+  background-color: #D9D9D9;
+  border-width: 10px;
+  width: 200px;
+  border: 10px solid #A59E8C;
+  border-radius: 25px;
+  font-size: 32px;
+  padding: 12px;
+  color: #66635B;
+}
+
+input[type=text]:focus {
+  border: 10px solid #66635B;
+  outline: none;
+  color: #66635B;
+}
+textarea:focus {
+  border: 10px solid #66635B;
+  outline: none;
+  color: #66635B;
+}
+input[type=password]:focus {
+  border: 10px solid #66635B;
+  outline: none;
+  color: #66635B;
+}
+
+.image {
+  border: 5px solid #4C5760;
+  border-radius: 20px;
+}
+
+.h4g {
+  font-size: 24px;
+  color: #00c000;
+}
+.h4r {
+  font-size: 24px;
+  color: #ff0000;
+}

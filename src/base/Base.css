@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+body {
+  background-image: url("../../public/images/pattern.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-position-y: 120px;
+  font-family: 'CustomFont', sans-serif;
+}
+
+.rectangle-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4C5760;
+  /* Example background color */
+}
+
+.elem {
+  transform: translate(0, 300px);
+}
+
+.bar {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  background-color: #A2D2FF;
+  z-index: 3;
+  border-bottom: 5px solid #4C5760;
+  border-top: 5px solid #A2D2FF;
+}
+
+.barw {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+  border-bottom: 5px solid #4C5760;
+  border-top: 5px solid white;
+}
+
+
+.bar2 {
+  position: fixed;
+  top: 200px;
+  width: 100%;
+  z-index: 3;
+}

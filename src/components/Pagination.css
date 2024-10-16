@@ -1,0 +1,30 @@
+.pagination-indicator {
+    background-color: #A2D2FF;
+    border: 5px solid #4C5760;
+    opacity: 80%;
+    border-radius: 50%;
+    width: 30px;
+    height: 33px;
+    margin-right: 5px;
+    opacity: 100%;
+}
+
+.pagination-indicator {
+    background-color: #A2D2FF;
+    border: 5px solid #4C5760;
+    border-radius: 50%;
+    width: 30px;
+    height: 33px;
+    margin-right: 5px;
+    opacity: 100%;
+}
+
+.pagination-indicator-active {
+    background-color: #4C5760;
+    border: 5px solid #4C5760;
+    border-radius: 50%;
+    width: 30px;
+    height: 33px;
+    margin-right: 5px;
+    opacity: 100%;
+}
